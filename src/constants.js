@@ -69,7 +69,7 @@ export const SkillsInfo = [
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
+      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
@@ -164,15 +164,7 @@ export const SkillsInfo = [
   ];
   
   export const education = [
-    // {
-    //   id: 0,
-    //   img: glaLogo,
-    //   school: "JIS COLLEGE OF ENGINEERING ,WEST BENGAL",
-    //   date: "Sept 2022 - July 2024",
-    //   grade: "7.81 CGPA",
-    //   desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-    //   degree: "Computer ",
-    // },
+    
     {
       id: 1,
       // img: bsaLogo,
