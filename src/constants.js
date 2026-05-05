@@ -34,14 +34,14 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// import webverseLogo from './assets/company_logo/webverse_logo.png';
+// import agcLogo from './assets/company_logo/agc_logo.png';
+// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+// import glaLogo from './assets/education_logo/gla_logo.png';
+// import bsaLogo from './assets/education_logo/bsa_logo.png';
+// import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -53,6 +53,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import aiserviceLogo from './assets/work_logo/AI-service.png';
 
 
 export const SkillsInfo = [
@@ -115,7 +116,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
+      // img: webverseLogo,
       role: "Fullstack Developer",
       company: "The Developers Arena",
       date: "10 november - Present",
@@ -197,6 +198,30 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Agency_AI",
+      description:
+        "Built a high-performance, responsive frontend application using React + Vite, focused on clean UI architecture, performance optimization, and seamless user experience.",
+      
+      // image: githubdetLogo,
+      tags: ["React.js, Vite, Tailwindcss, Framer Motion, React Hot Toast, LocalStorage API"],
+      github: "https://github.com/raman-19/Agency_AI",
+      // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+    {
+      id: 1,
+      title: "AI-Service-Page",
+      description:
+       " A professional, fully responsive landing page for an AI Consulting Business, built as part of an AI-Developer challenge. The page focuses on presenting AI consulting services, explaining the workflow, and capturing leads through a contact form.",
+      
+      image: aiserviceLogo,
+      tags: ["HTML5, CSS3, JavaScriot(Vanilla)"],
+      github: "https://github.com/raman-19/AI-Service-Page",
+      webapp: " https://ai-service-page.onrender.com",
+    },
+    
+    
+    {
+      id: 2,
       title: "BOOK STORE",
       description:
         "I developed a Full-Stack Book Store Application using React, Tailwind CSS, Axios, Node.js, Express.js, and MongoDB. The application allows users to browse books, add them to favourites, manage their cart, and place orders. It includes a role-based login system with JWT authentication, ensuring secure access for both users and admins. Admins can manage books, while users enjoy a smooth and responsive UI. I integrated REST APIs for data handling and used Postman for testing to ensure reliable functionality. This project demonstrates my skills in frontend design, backend development, and database management for real-world applications.",
@@ -207,7 +232,7 @@ export const SkillsInfo = [
       // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 1,
+      id: 3,
       title: "Voating_app",
       description:
         "Developed a voting application that allows users to cast votes, view real-time results, and manage candidates using a simple, user-friendly interface.",
@@ -217,7 +242,7 @@ export const SkillsInfo = [
       // webapp: "https://csprep.netlify.app/",
     },
     { 
-      id: 2,
+      id: 4,
       title: "Amazon-Website",
       description:
         "Built an Amazon-style e-commerce website using HTML, CSS, and JavaScript with JSON-based product data acting as a mock backend.",
@@ -227,7 +252,7 @@ export const SkillsInfo = [
       // webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Shoping-Website",
       description:
         "A simple React-based e-commerce demo website showcasing product listing, wishlist, and cart UI with a focus on frontend UI/UX and component design.",
